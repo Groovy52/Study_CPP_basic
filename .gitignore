@@ -1,0 +1,18 @@
+Data-Structure-and-Algorithm/
+# Visual Studio build folders
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio cache
+.vs/
+
+# Build logs
+*.log
+*.tlog
+*.lastbuildstate
+
+# Visual Studio user files
+*.user
+*.suo

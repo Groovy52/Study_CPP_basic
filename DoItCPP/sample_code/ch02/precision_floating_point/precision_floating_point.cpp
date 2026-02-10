@@ -9,9 +9,9 @@ using namespace std;
 
 int main()
 {
-	float float_value = 9.87654321f;
-	double double_value = 9.87654321987654321;
-	long double long_double_value = 9.87654321987654321l;
+	float float_value = 9.87654321f; // f 붙이면 float 형
+	double double_value = 9.87654321987654321; // 아무것도 안 붙이면 double 형
+	long double long_double_value = 9.87654321987654321l; // l 붙이면 long double 형
 
 	cout << "float : " << sizeof(float) << " bytes" << endl;
 	cout << "float_value : " <<

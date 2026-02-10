@@ -4,6 +4,7 @@
 #include <iostream>
 using namespace std;
 
+/*
 int main()
 {
 	char char_value = 'A';
@@ -12,7 +13,7 @@ int main()
 
 	char *char_pointer_value = &char_value;
 	int *int_pointer_value = &int_value;
-	double* double_pointer_value = &double_value;
+	double *double_pointer_value = &double_value;
 
 	// 일반 변수의 데이터 출력
 	cout << "char_value: " << char_value << endl;
@@ -26,7 +27,13 @@ int main()
 	cout << "*int_pointer_value: " << *int_pointer_value << endl;
 	cout << "*double_pointer_value: " << *double_pointer_value << endl;
 
-	cout << endl;	
+	cout << endl;
+
+	cout << "memory location of *char_pointer_value: " << char_pointer_value << endl;
+	cout << "memory location of *int_pointer_value: " << int_pointer_value << endl;
+	cout << "memory location of *double_pointer_value: " << double_pointer_value << endl;
+
+	cout << endl;
 
 	// 역참조 연산자로 원본 데이터 덮어쓰기
 	*char_pointer_value = 'Z';
@@ -37,6 +44,22 @@ int main()
 	cout << "char_value: " << char_value << endl;
 	cout << "int_value: " << int_value << endl;
 	cout << "double_value: " << double_value << endl;
+
+	return 0;
+}
+*/
+
+// 다중 포인터
+int main()
+{
+	int int_value = 123;
+	int *int_pt_value = &int_value;
+	int **int_pt_pt_value = &int_pt_value;
+	int ***int_pt_pt_pt_value = &int_pt_pt_value;
+
+	cout << "int_value: " << int_value << endl;
+	cout << "*int_pt_value: " << *int_pt_value << endl;
+	cout << "**int_pt_pt_value: " << **int_pt_pt_value << endl;
 
 	return 0;
 }

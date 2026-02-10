@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="arguments_pointer/arguments_pointer.vcxproj" />
+  <Project Path="reassign_reference_fail_test/reassign_reference_fail_test.vcxproj" />
 </Solution>

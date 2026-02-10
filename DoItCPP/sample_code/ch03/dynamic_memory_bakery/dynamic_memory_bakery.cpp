@@ -11,14 +11,16 @@ int main() {
 	cout << "오늘 방문 손님: ";
 	cin >> customer_num; 
 
-	string* bread = new string[customer_num];
+	string *bread = new string[customer_num];
 
-	for (int i = 0; i < customer_num; i++) {
+	for (int i = 0; i < customer_num; i++) 
+	{
 		bread[i] = "빵_" + to_string(i);
 	}
+
 	cout << endl << "--생산된 빵--" << endl;
 	for (int i = 0; i < customer_num; i++) {
-		cout << *(bread + i) << endl; // 포인터 연산으로 접근, bread[i]와 같음
+		cout << *(bread + i) << endl; // 포인터 연산으로 접근, bread[i]와 같음s
 	}
 	delete[] bread;
 

@@ -6,6 +6,8 @@ using namespace std;
 
 int main() 
 {
+    // 배열 형태의 동적 메모리 할당과 해제
+	// 자료형 *변수_이름 = new 자료형[배열_크기];
     int *pt_int_array_value = new int[5];   // 동적 메모리 할당 (배열)
 
     for (int i = 0; i < 5; i++) 
@@ -18,6 +20,7 @@ int main()
         cout << pt_int_array_value[i] << endl;   // 배열 변수 출력
     }
 
+	// delete[] 변수_이름;
     delete[] pt_int_array_value;   // 동적 메모리 해제(배열)
 
     return 0;

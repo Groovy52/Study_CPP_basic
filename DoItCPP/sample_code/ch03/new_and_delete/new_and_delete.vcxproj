@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a2d1d0ab-241f-4312-8da6-d094e064591c}</ProjectGuid>
+    <ProjectGuid>{ae89dd0a-86fa-4d07-bad6-588997b4112b}</ProjectGuid>
     <RootNamespace>newanddelete</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

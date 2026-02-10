@@ -4,7 +4,8 @@
 #include <iostream>
 using namespace std;
 
-void change_negative(int _val)
+// 함수 자료형에 void를 사용하면 반환값이 없음을 의미
+void change_negative(int _val) 
 {
 	if (_val > 0)
 	{
@@ -23,8 +24,8 @@ int main() {
 	change_negative(a);
 	change_negative(b);
 
-	cout << "change_negative(a) : " << a << endl;
-	cout << "change_negative(b) : " << b << endl;
+	cout << "change_negative(a) : " << a << endl; // 바뀌는 건 복사본 _val 뿐이고, main의 a는 그대로 3.
+	cout << "change_negative(b) : " << b << endl; // 바뀌는 건 복사본 _val 뿐이고, main의 b는 그대로 -3.
 
 	return 0;
 }

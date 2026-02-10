@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a25e8da2-d199-4e5e-aa2a-c04d1d71868b}</ProjectGuid>
-    <RootNamespace>floatingpoint</RootNamespace>
+    <ProjectGuid>{d1d75808-33be-4263-bd79-ef461a42dc29}</ProjectGuid>
+    <RootNamespace>callbyreference</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="floating_point.cpp" />
+    <ClCompile Include="call_by_reference.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

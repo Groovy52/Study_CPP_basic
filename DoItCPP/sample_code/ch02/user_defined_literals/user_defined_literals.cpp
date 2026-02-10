@@ -13,7 +13,7 @@ long double operator"" _km(long double val) // _km 사용자 리터럴 정의
 
 long double operator"" _mi(long double val) // _mi 사용자 리터럴 정의
 {
-	return val * km_per_mile;
+	return val *km_per_mile;
 }
 
 int main()

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ch02_summary_problems.cpp">
+    <ClCompile Include="array_address.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

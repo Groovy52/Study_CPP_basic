@@ -9,8 +9,8 @@ using namespace std;
 int main()
 {
 	string string_value("Hello");
-	cout << string_value << endl;
-
+	// cout << string_value << endl;
+	cout << string_value;
 	string_value = "World!";
 	cout << string_value << endl;
 	cout << "Hello goeun!\n";
